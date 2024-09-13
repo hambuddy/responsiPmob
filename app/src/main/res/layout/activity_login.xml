@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pmobgrvtybckg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/uad" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txEmail"
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/txPassword"
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#9575CD"/>
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
